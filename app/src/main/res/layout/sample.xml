@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntentsActivity"
+    android:background="@color/intents_dark_blue"
+    android:paddingVertical="54dp"
+    android:paddingHorizontal="36dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_register"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="32sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/intents_page_gap"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/intents_registration_instruction"
+                android:textAlignment="center"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/intents_registration_gap"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/intents_form_gap">
+                    <EditText
+                        android:id="@+id/field_firstname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingVertical="14dp"
+                        android:paddingHorizontal="16dp"
+                        android:background="@drawable/field_box"
+                        android:hint="@string/intents_firstname_hint"
+                        android:autofillHints="firstname"
+                        android:inputType="text"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textColor="@color/intents_field_hint"
+                        android:textSize="@dimen/intents_font_field"/>
+
+                    <EditText
+                        android:id="@+id/field_lastname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingVertical="14dp"
+                        android:paddingHorizontal="16dp"
+                        android:layout_marginStart="@dimen/intents_form_gap"
+                        android:background="@drawable/field_box"
+                        android:hint="@string/intents_lastname_hint"
+                        android:autofillHints="lastname"
+                        android:inputType="text"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textColor="@color/intents_field_hint"
+                        android:textSize="@dimen/intents_font_field"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/field_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="14dp"
+                    android:paddingHorizontal="16dp"
+                    android:layout_marginBottom="@dimen/intents_form_gap"
+                    android:background="@drawable/field_box"
+                    android:hint="@string/intents_email_hint"
+                    android:autofillHints="emailAddress"
+                    android:inputType="textEmailAddress"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textColor="@color/intents_field_hint"
+                    android:textSize="@dimen/intents_font_field"/>
+
+                <EditText
+                    android:id="@+id/field_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="14dp"
+                    android:paddingHorizontal="16dp"
+                    android:layout_marginBottom="@dimen/intents_form_gap"
+                    android:background="@drawable/field_box"
+                    android:hint="@string/intents_email_hint"
+                    android:autofillHints="emailAddress"
+                    android:inputType="textEmailAddress"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textColor="@color/intents_field_hint"
+                    android:textSize="@dimen/intents_font_field"/>
+
+
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intents_agree_to_terms"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="14sp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intents_terms_of_service"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/montserrat_semi_bold"
+                        android:textSize="14sp"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="3dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
