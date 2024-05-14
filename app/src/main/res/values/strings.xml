@@ -24,5 +24,8 @@
     <string name="intents_gpa_hint">GPA</string>
     <string name="intents_clear">Clear</string>
     <string name="intents_submit">Submit</string>
+    <string name="intents_greeting">Hello, my friend!</string>
+    <string name="intents_profile_Summary">The following is the summary of your profile.</string>
+    <string name="intents_return">return</string>
 
 </resources>

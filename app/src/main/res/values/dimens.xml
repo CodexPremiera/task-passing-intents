@@ -20,7 +20,10 @@
     <dimen name="intents_page_x_pad">32dp</dimen>
     <dimen name="intents_page_gap">32dp</dimen>
     <dimen name="intents_registration_gap">20dp</dimen>
+    <dimen name="intents_profile_gap">16dp</dimen>
     <dimen name="intents_form_gap">12dp</dimen>
     <dimen name="intents_font_field">14sp</dimen>
+    <dimen name="intents_font_profile_label">12sp</dimen>
+    <dimen name="intents_font_profile_field">16sp</dimen>
     <dimen name="intents_field_pad">12dp</dimen>
 </resources>
