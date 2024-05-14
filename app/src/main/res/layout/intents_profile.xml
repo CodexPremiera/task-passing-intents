@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:clipToPadding="true"
-    tools:context=".IntentsActivity"
+    tools:context=".ProfileActivity"
     android:background="@color/intents_dark_blue"
     android:paddingVertical="@dimen/intents_page_y_pad"
     android:paddingHorizontal="@dimen/intents_page_x_pad">
@@ -36,6 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
                 android:text="@string/intents_profile_Summary"
                 android:textAlignment="center"
                 android:fontFamily="@font/montserrat_regular"
